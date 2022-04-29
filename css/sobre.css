@@ -1,8 +1,8 @@
 body{
     font-family:"Lucida Grande",Helvetica, sans-serif; 
     width: 940px;
-    margin-right: 500px;
-    margin-left: 500px;
+    margin-right:  auto;
+    margin-left: auto;
 } 
 h1{
     color: #3d3d3d;
@@ -20,6 +20,6 @@ figure{
     padding: 15px; 
     margin: 30px;
 } 
-img{
-    margin-bottom: 10px;
+figcaption{
+    margin-top: 10px;
 }
