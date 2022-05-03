@@ -4,13 +4,15 @@ body{
     margin-right:  auto;
     margin-left: auto;
 } 
-h1{
+.Titulo{
     color: #3d3d3d;
     background-color: #e1edf2;
     padding: 10px;
 }
-h2{
+.Subtitulo{
     border-bottom: 2px solid red;
+     
+    
 
 } 
 figure{
@@ -48,4 +50,20 @@ ol{
 } 
 figure img{
     width: 100%;
-}
+} 
+.contato_secao{
+
+} 
+.contato_secao--telefone{
+
+} 
+.contato_subtitulo{  
+   display: inline;
+} 
+.contato_info{
+ margin: 16px 0 24 px;
+} 
+.contato_info--titulo{
+
+} 
+
