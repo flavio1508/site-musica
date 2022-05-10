@@ -1,69 +1,151 @@
-body{
-    font-family:"Lucida Grande",Helvetica, sans-serif; 
-    width: 940px;
-    margin-right:  auto;
+body {
+    font-family: "Lucida Grande", Helvetica, sans-serif;
+    width: 100%;
+    max-width: 940px;
+    margin-right: auto;
     margin-left: auto;
-} 
-.Titulo{
+}
+
+html {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.Titulo {
     color: #3d3d3d;
     background-color: #e1edf2;
     padding: 10px;
 }
-.Subtitulo{
-    border-bottom: 2px solid red;
-     
-    
 
-} 
-figure{
+.Subtitulo {
+    border-bottom: 2px solid red;
+
+
+
+}
+
+figure {
     margin: 30px;
+    max-width: 100%;
+    box-sizing: border-box;
     padding: 15px;
     text-align: center;
-
     background-color: whitesmoke;
     border: 1px solid lightgrey;
 }
 
 
-figcaption{
+figcaption {
     margin-top: 10px;
 }
-ul{
-    list-style-image: url('../img/footer-icone-instagram.svg') ;
-} 
-ol{
+
+ul {
+    list-style-image: url('../img/footer-icone-instagram.svg');
+}
+
+ol {
     list-style-type: lower-roman;
-} 
-.matriz-musicdot{
-    width: 500px;
-   margin-left: auto ;
-   margin-right:auto ;
-} 
-.familia-tupfeln{
-    width: 500px;
+}
+
+.matriz-musicdot {
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+}
+
+.familia-tupfeln {
+    width: 275px;
     float: right;
-} 
-.logo{
+}
+
+.logo {
     width: 500px;
-    margin-left: auto ;
-    margin-right: auto ;
-} 
-figure img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+figure img {
     width: 100%;
-} 
-.contato_secao{
+}
 
-} 
-.contato_secao--telefone{
+.contatosecao {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 16px;
 
-} 
-.contato_subtitulo{  
-   display: inline;
-} 
-.contato_info{
- margin: 16px 0 24 px;
-} 
-.contato_info--titulo{
+}
 
-} 
+.contatosecao--telefone {
+    margin-left: 32px;
 
+}
+
+.contato__info {
+    margin: 16px 0 24px;
+    padding-left: 32px;
+}
+
+.contato__info--titulo,
+.contato__info--descricao {
+    display: inline;
+}
+
+.contato__info--descricao {
+    margin-left: 10px;
+}
+
+.contatosubtitulo {
+    display: inline;
+}
+
+.rodape {
+    padding-top: 1.75rem 0;
+
+    font-size: 1.10rem;
+}
+
+.rodape__logo {
+    width: 6rem;
+}
+
+.rodape__copyright {
+    display: inline;
+    margin: 1em;
+}
+
+@media (max-width:850px) {
+
+    .contatosecao {
+        display: block;
+        margin-left: 1em;
+    }
+
+}  
+@media(max-width:622px){
+    .familia-tupfeln{
+        float: none ; 
+        margin: 0 auto;
+    }
+}  
+@media (max-width:446px){
+    .contatosubtitulo{
+        display: block; 
+        margin-bottom: 0;
+    }  
+    .contato__info{  
+        border-left: 2px solid lightgray;
+        padding-left: 5px;  
+        font-size: 0.92em; 
+    } 
+    .rodape{
+        font-size: .92em;
+    }
+}  
+@media (max-width:342px){
+    .contato__info--titulo{
+        display:block
+    } 
+    .contato__info--descricao{
+        margin-left: 1em;
+    }
+} 
